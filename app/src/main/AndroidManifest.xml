@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eatoncampus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ManagerOrderActivity"
+            android:label="@string/title_activity_manager_order"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".OrderDetialActivity"
+            android:label="@string/title_activity_order_detial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfirmOrderActivity"
+            android:label="@string/title_activity_confirm_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateInfoActivity"
+            android:label="@string/title_activity_update_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditingActivity"
+            android:label="@string/title_activity_editing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditMenuActivity"
+            android:label="@string/title_activity_edit_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateMenuActivity"
+            android:label="@string/title_activity_create_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyOrderActivity"
+            android:label="@string/title_activity_my_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManagerHomeActivity"
+            android:label="@string/title_activity_manager_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentHomeActivity"
+            android:label="@string/title_activity_student_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManagerRegisterActivity"
+            android:label="@string/title_activity_manager_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentRegisterActivity"
+            android:label="@string/title_activity_student_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogInActivity"
+            android:label="@string/title_activity_longin"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
